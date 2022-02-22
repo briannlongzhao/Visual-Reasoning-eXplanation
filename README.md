@@ -48,6 +48,24 @@ cd Visual-Reasoning-eXplanation
 ```
 pip install -r requirements.txt
 ```
+Add:
+
+- python 3.6 or 3.7
+
+- cmake==3.18.0
+
+- try torch==1.9.0
+
+- ```
+    pip install torch-scatter -f https://data.pyg.org/whl/torch-1.9.0+${CUDA}.html
+    ```
+
+    where `${CUDA}` should be replaced by either `cpu`, `cu102`, or `cu111` depending on your PyTorch installation.
+
+- Visual C++ 14 or newer, Windows 10 SDK
+
+- CUDA/bin in \$PATH and CUDA/include in \$CPATH
+
 <br>
 
 ### Datasets
