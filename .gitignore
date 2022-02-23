@@ -1,4 +1,5 @@
 .idea/
+*.zip
 src/__pycache__/
 source/
 result/
