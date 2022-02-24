@@ -1,0 +1,6 @@
+==========================================
+SLURM_JOB_ID = 7518532
+SLURM_JOB_NODELIST = a02-15
+TMPDIR = /tmp/SLURM_7518532
+==========================================
+CUDA available: True
