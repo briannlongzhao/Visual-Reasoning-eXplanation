@@ -1,6 +1,7 @@
 ==========================================
-SLURM_JOB_ID = 7528752
+SLURM_JOB_ID = 7528756
 SLURM_JOB_NODELIST = a02-15
-TMPDIR = /tmp/SLURM_7528752
+TMPDIR = /tmp/SLURM_7528756
 ==========================================
 CUDA available: True
+[Pre] 1 Loading class-specific model
