@@ -33,8 +33,4 @@ Traceback (most recent call last):
     from torch_sparse import coalesce, SparseTensor
   File "/home1/briannlz/.conda/envs/3.6/lib/python3.6/site-packages/torch_sparse/__init__.py", line 16, in <module>
     f'{library}_{suffix}', [osp.dirname(__file__)]).origin)
-  File "/home1/briannlz/.conda/envs/3.6/lib/python3.6/site-packages/torch/_ops.py", line 104, in load_library
-    ctypes.CDLL(path)
-  File "/home1/briannlz/.conda/envs/3.6/lib/python3.6/ctypes/__init__.py", line 348, in __init__
-    self._handle = _dlopen(self._name, mode)
-OSError: libtorch_cuda_cu.so: cannot open shared object file: No such file or directory
+AttributeError: 'NoneType' object has no attribute 'origin'
