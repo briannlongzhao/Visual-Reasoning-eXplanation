@@ -474,7 +474,7 @@ def main(args):
     '''
     we will use the trained model
     '''
-    model_share.load_state_dict(torch.load(args.model_path))
+    model_share.load_state_dict(torch.load(args.model_path, map_location=device))
 
     model_share = model_share.to(device)
     model_share.batch_size = 1 # fix the batch size
