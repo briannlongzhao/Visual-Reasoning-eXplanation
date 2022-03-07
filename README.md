@@ -54,7 +54,7 @@ Add:
 
 - cmake==3.18.0
 
-- try differnt versions of torch
+- try differnt versions of torch (works on torch==1.9.0+cpu)
 
 - ```
     pip install torch==1.6.0+cpu -f https://download.pytorch.org/whl/torch_stable.html
