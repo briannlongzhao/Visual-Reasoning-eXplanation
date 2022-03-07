@@ -54,10 +54,14 @@ Add:
 
 - cmake==3.18.0
 
-- try torch==1.9.0
+- try differnt versions of torch
 
 - ```
-    pip install torch-scatter -f https://data.pyg.org/whl/torch-1.9.0+${CUDA}.html
+    pip install torch==1.6.0+cpu -f https://download.pytorch.org/whl/torch_stable.html
+    ```
+
+- ```
+    pip install torch-scatter -f https://data.pyg.org/whl/torch-1.6.0+${CUDA}.html
     ```
 
     where `${CUDA}` should be replaced by either `cpu`, `cu102`, or `cu111` depending on your PyTorch installation.
