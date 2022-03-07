@@ -2,5 +2,6 @@
 *.zip
 src/__pycache__/
 source/
-result/
+result/img2vec/
+result/output/
 .ipynb_checkpoints/
