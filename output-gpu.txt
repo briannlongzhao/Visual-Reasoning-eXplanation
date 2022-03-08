@@ -1,9 +1,8 @@
 ==========================================
-SLURM_JOB_ID = 7626107
-SLURM_JOB_NODELIST = a02-01
-TMPDIR = /tmp/SLURM_7626107
+SLURM_JOB_ID = 7638421
+SLURM_JOB_NODELIST = a01-01
+TMPDIR = /tmp/SLURM_7638421
 ==========================================
-start discovering concept of ambulance
-2022-03-07 12:26:03.810024 Creating the dataset of image patches of ambulance...
-2022-03-07 12:28:18.730965 Discovering concepts of ambulance...
-2022-03-07 12:31:39.394871 Calculating CAVs and TCAV scores of ambulance...
+PyTorch version: 1.6.0
+CUDA available: True
+CUDA version: 10.2
