@@ -6,17 +6,29 @@
 #SBATCH --mem=64GB
 #SBATCH --partition=gpu
 #SBATCH --gres=gpu:1
-#SBATCH --time=1:00:00
+#SBATCH --time=6:00:00
 #SBATCH --output=output-gpu.txt
 #SBATCH --error=error-gpu.txt
+
+module purge
+module load gcc/8.3.0
+module load cuda/10.2.89
 
 ulimit -s unlimited
 
 eval "$(conda shell.bash hook)"
 conda activate ~/.conda/envs/3.6
 
-#pip install --upgrade --no-deps --force-reinstall torch torch-geometric==1.7.1
-#pip install --upgrade --no-deps --force-reinstall torch-scatter torch-sparse -f https://data.pyg.org/whl/torch-1.9.0+cu111.html
+python3 testgpu.py
 
-python testgpu.py
-python3 Xception_WhyNot.py --img_class fire_engine --img_idx 19835
+# Discover concept
+#python3 discover_concept.py
+
+# Match concept
+python3 match_concept.py
+
+# Training Structural Concept Graph (SCG)
+#python3 VR_training_XAI.py
+
+# Reasoning image
+#python3 Xception_WhyNot.py --img_class fire_engine --img_idx 19835

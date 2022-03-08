@@ -1,0 +1,77 @@
+/home1/briannlz/.conda/envs/3.6/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:516: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/home1/briannlz/.conda/envs/3.6/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:517: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/home1/briannlz/.conda/envs/3.6/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:518: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/home1/briannlz/.conda/envs/3.6/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:519: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/home1/briannlz/.conda/envs/3.6/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:520: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/home1/briannlz/.conda/envs/3.6/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:525: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+/home1/briannlz/.conda/envs/3.6/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:541: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/home1/briannlz/.conda/envs/3.6/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:542: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/home1/briannlz/.conda/envs/3.6/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:543: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/home1/briannlz/.conda/envs/3.6/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:544: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/home1/briannlz/.conda/envs/3.6/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:545: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/home1/briannlz/.conda/envs/3.6/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:550: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+Using TensorFlow backend.
+WARNING:tensorflow:From /home1/briannlz/.conda/envs/3.6/lib/python3.6/site-packages/tcav/utils.py:33: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+WARNING:tensorflow:From /home1/briannlz/.conda/envs/3.6/lib/python3.6/site-packages/tcav/utils.py:37: The name tf.InteractiveSession is deprecated. Please use tf.compat.v1.InteractiveSession instead.
+
+2022-03-07 12:00:43.027920: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 AVX512F FMA
+2022-03-07 12:00:43.034291: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2100000000 Hz
+2022-03-07 12:00:43.034872: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x555bbdeecb10 executing computations on platform Host. Devices:
+2022-03-07 12:00:43.034907: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
+WARNING:tensorflow:From /home1/briannlz/.conda/envs/3.6/lib/python3.6/site-packages/tensorflow/python/ops/init_ops.py:1251: calling VarianceScaling.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+2022-03-07 12:00:47.755130: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1412] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or use experimental_jit_scope to enable XLA:CPU.  To confirm that XLA is active, pass --vmodule=xla_compilation_cache=1 (as a proper command-line flag, not via TF_XLA_FLAGS) or set the envvar XLA_FLAGS=--xla_hlo_profile.
+WARNING:tensorflow:From /home1/briannlz/Visual-Reasoning-eXplanation/src/ace.py:118: The name tf.gfile.ListDirectory is deprecated. Please use tf.io.gfile.listdir instead.
+
+WARNING:tensorflow:From /home1/briannlz/Visual-Reasoning-eXplanation/src/ace_helpers.py:64: The name tf.gfile.Exists is deprecated. Please use tf.io.gfile.exists instead.
+
+WARNING:tensorflow:From discover_concept.py:96: The name tf.gfile.MakeDirs is deprecated. Please use tf.io.gfile.makedirs instead.
+
+WARNING:tensorflow:From /home1/briannlz/Visual-Reasoning-eXplanation/src/ace_helpers.py:1145: The name tf.gfile.Open is deprecated. Please use tf.io.gfile.GFile instead.
+
+WARNING:tensorflow:
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+
+WARNING:tensorflow:From /home1/briannlz/.conda/envs/3.6/lib/python3.6/site-packages/tcav/cav.py:315: The name tf.logging.info is deprecated. Please use tf.compat.v1.logging.info instead.
+
+Traceback (most recent call last):
+  File "discover_concept.py", line 178, in <module>
+    main(parse_arguments(sys.argv[1:]))
+  File "discover_concept.py", line 122, in main
+    scores = cd.tcavs(test=False)
+  File "/home1/briannlz/Visual-Reasoning-eXplanation/src/ace.py", line 773, in tcavs
+    gradients = self._return_gradients(tcav_score_images)
+  File "/home1/briannlz/Visual-Reasoning-eXplanation/src/ace.py", line 725, in _return_gradients
+    bn_grads = np.zeros((len(images), np.prod(self.model.run_examples(np.zeros((224,224, 3)), bn).shape[1:])))
+  File "/home1/briannlz/Visual-Reasoning-eXplanation/src/model_Xception.py", line 46, in run_examples
+    (LayerOuts, preds) = new_model(x)
+  File "/home1/briannlz/.conda/envs/3.6/lib/python3.6/site-packages/tensorflow/python/keras/engine/base_layer.py", line 634, in __call__
+    outputs = call_fn(inputs, *args, **kwargs)
+  File "/home1/briannlz/.conda/envs/3.6/lib/python3.6/site-packages/tensorflow/python/keras/engine/network.py", line 751, in call
+    return self._run_internal_graph(inputs, training=training, mask=mask)
+  File "/home1/briannlz/.conda/envs/3.6/lib/python3.6/site-packages/tensorflow/python/keras/engine/network.py", line 893, in _run_internal_graph
+    output_tensors = layer(computed_tensors, **kwargs)
+  File "/home1/briannlz/.conda/envs/3.6/lib/python3.6/site-packages/tensorflow/python/keras/engine/base_layer.py", line 586, in __call__
+    self.name)
+  File "/home1/briannlz/.conda/envs/3.6/lib/python3.6/site-packages/tensorflow/python/keras/engine/input_spec.py", line 123, in assert_input_compatibility
+    str(x.shape.as_list()))
+ValueError: Input 0 of layer block1_conv1 is incompatible with the layer: expected ndim=4, found ndim=3. Full shape received: [224, 224, 3]
