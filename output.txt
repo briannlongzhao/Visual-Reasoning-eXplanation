@@ -1,5 +1,9 @@
 ==========================================
-SLURM_JOB_ID = 7528706
-SLURM_JOB_NODELIST = d05-30
-TMPDIR = /tmp/SLURM_7528706
+SLURM_JOB_ID = 7626064
+SLURM_JOB_NODELIST = d05-28
+TMPDIR = /tmp/SLURM_7626064
 ==========================================
+start discovering concept of ambulance
+2022-03-07 12:00:48.617915 Creating the dataset of image patches of ambulance...
+2022-03-07 12:04:11.270758 Discovering concepts of ambulance...
+2022-03-07 12:10:08.162725 Calculating CAVs and TCAV scores of ambulance...

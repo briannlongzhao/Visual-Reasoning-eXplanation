@@ -1,7 +1,9 @@
 ==========================================
-SLURM_JOB_ID = 7528756
-SLURM_JOB_NODELIST = a02-15
-TMPDIR = /tmp/SLURM_7528756
+SLURM_JOB_ID = 7626107
+SLURM_JOB_NODELIST = a02-01
+TMPDIR = /tmp/SLURM_7626107
 ==========================================
-CUDA available: True
-[Pre] 1 Loading class-specific model
+start discovering concept of ambulance
+2022-03-07 12:26:03.810024 Creating the dataset of image patches of ambulance...
+2022-03-07 12:28:18.730965 Discovering concepts of ambulance...
+2022-03-07 12:31:39.394871 Calculating CAVs and TCAV scores of ambulance...
