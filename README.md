@@ -103,7 +103,7 @@ python3 discover_concept.py --model_to_run YOUR_LOCAL_PRETRAINED_MODEL_NAME --mo
 ### Match concept
 This step will use the concepts you discovered in last step to match new images. If you want to match your own images, please put them into `./source` and create a new folder named `IMAGE_CLASS_NAME`. Then run:
 ```bash
-python3 macth_concept.py --model_to_run YOUR_LOCAL_PRETRAINED_MODEL_NAME --model_path YOUR_LOCAL_PATH_OF_PRETRAINED_MODEL --labels_path LABEL_PATH_OF_YOUR_MODEL_LABEL --use_gradcam TRUE/FALSE
+python3 match_concept.py --model_to_run YOUR_LOCAL_PRETRAINED_MODEL_NAME --model_path YOUR_LOCAL_PATH_OF_PRETRAINED_MODEL --labels_path LABEL_PATH_OF_YOUR_MODEL_LABEL --use_gradcam TRUE/FALSE
 ```
 
 ### Training Structural Concept Graph (SCG)
